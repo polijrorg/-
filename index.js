@@ -1,1 +1,1 @@
-module.exports.default = () => true;
+module.exports = { default: () => true };
