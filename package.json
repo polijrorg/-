@@ -1,6 +1,6 @@
 {
   "name": "eh-tudo-nosso",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "dependencies": {
     "react": "^17.0.2",
     "react-native": "^0.67.3",
