@@ -1,3 +1,3 @@
-const Components = require("./src");
+const Components = require("./src/components");
 
 module.exports = { default: Components };

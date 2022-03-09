@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Modal } from "react-native";
-import Arrow from "../../../assets/Arrow";
+import Arrow from "../../assets/Arrow";
 import { MotiView } from "@motify/components";
 import * as S from "./styles";
 

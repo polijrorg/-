@@ -1,8 +1,9 @@
 import { TextInput } from "react-native-gesture-handler";
 import styled, { css } from "styled-components/native";
+import { theme } from "../../styles/default.theme";
 
 export const Wrapper = styled.Pressable`
-  ${({ theme, width, dimmed }) => css`
+  ${({ width, dimmed }) => css`
     width: ${width ? `${width}px` : `100%`};
     padding: 16px;
     height: 56px;
@@ -32,22 +33,21 @@ export const OptionsWrapper = styled.View`
   max-height: 232px;
 
   border-radius: 8px;
-  background-color: ${({ theme }) => theme.colors.white};
+  background-color: ${theme.colors.white};
   overflow: hidden;
 `;
 
 export const ScrollWrapper = styled.ScrollView``;
 
-export const Option = styled.TouchableHighlight.attrs(({ theme }) => ({
+export const Option = styled.TouchableHighlight.attrs({
   underlayColor: `${theme.colors.ligth_gray}`,
-}))`
+})`
   width: 100%;
   padding: 16px;
 `;
 
 export const OptionText = styled.Text`
-  font-family: ${({ theme }) => theme.font.Montserrat};
-  color: ${({ theme }) => theme.colors.black};
+  color: ${theme.colors.black};
   text-align: center;
 `;
 
@@ -68,8 +68,7 @@ export const LabelWrapper = styled.View`
 `;
 
 export const Label = styled.Text`
-  font-family: ${({ theme }) => theme.font.Montserrat};
-  color: ${({ theme }) => theme.colors.typograph.gray};
+  color: ${theme.colors.typograph.gray};
 `;
 
 export const Input = styled(TextInput)`
