@@ -1,4 +1,3 @@
-import { TextInput } from "react-native-gesture-handler";
 import styled, { css } from "styled-components/native";
 import { theme } from "../../styles/default.theme";
 
@@ -69,8 +68,4 @@ export const LabelWrapper = styled.View`
 
 export const Label = styled.Text`
   color: ${theme.colors.typograph.gray};
-`;
-
-export const Input = styled(TextInput)`
-  width: 100%;
 `;
