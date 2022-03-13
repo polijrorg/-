@@ -4,7 +4,17 @@ import Arrow from "../../assets/Arrow";
 import { MotiView } from "@motify/components";
 import * as S from "./styles";
 
-const DropDown = ({
+type DropDownProps = {
+  label: string;
+  value: string | number;
+  options: string[] | number[];
+  onChange: React.Dispatch<React.SetStateAction<string | number>>;
+  width?: number;
+  disableSelectAll?: boolean;
+  editable?: boolean;
+};
+
+const DropDown: React.FC<DropDownProps> = ({
   label,
   value,
   onChange,
