@@ -29,8 +29,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "prepare": "bob build",
-    "clean": "del lib"
+    "prepare": "bob build"
   },
   "dependencies": {
     "expo": "^44.0.6",
@@ -46,7 +45,6 @@
     "react-native-builder-bob": "^0.18.2",
     "typescript": "^4.6.2"
   },
-  "author": "Henrique Falconer <henrique.falconer@polijunior.com.br>",
   "react-native-builder-bob": {
     "source": "src",
     "output": "lib",
