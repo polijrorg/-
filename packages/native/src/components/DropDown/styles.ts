@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components/native";
 import { theme } from "../../styles/default.theme";
 
-export const Wrapper = styled.Pressable`
+export const Wrapper = styled.Pressable<{ width?: number; dimmed: boolean }>`
   ${({ width, dimmed }) => css`
     width: ${width ? `${width}px` : `100%`};
     padding: 16px;
@@ -15,6 +15,10 @@ export const Wrapper = styled.Pressable`
     opacity: ${dimmed ? 0.4 : 1};
   `}
 `;
+
+// safada
+// ...
+// oi, bb
 
 export const ModalWrapper = styled.Pressable`
   width: 100%;
