@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@ntec/*": ["./packages/*/src"],
+    },
     "baseUrl": ".",
     "composite": true,
     "allowUnreachableCode": false,
@@ -23,8 +26,5 @@
     "target": "esnext",
     "noImplicitAny": false,
     "outDir": "./lib/typescript",
-    "paths": {
-      "@eh-tudo-nosso/*": ["./packages/*/src"],
-    },
   }
 }
