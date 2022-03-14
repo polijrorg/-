@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./lib/typescript",
     "paths": {
-      "@eh-tudo-nosso/*": ["../*/src"]
+      "@ntec/*": ["../*/src"]
     }
   }
 }
