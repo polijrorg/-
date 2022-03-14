@@ -15,7 +15,7 @@ expo init -t expo-template-blank-typescript
 1. Rodar o seguinte comando:
 
 ```bash
-expo add @ntec/native moti react-native-reanimated react-native-svg react-native-svg-transformer styled-components
+expo add @ntec/native react-native-reanimated
 ```
 
 2. Adicionar um arquivo `metro.config.js` no root do projeto com este conteúdo:
