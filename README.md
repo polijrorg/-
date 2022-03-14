@@ -125,6 +125,12 @@ Lib de funções bem úteis de 🛠 TypeScript.
 #### 📎 Exemplos:
 
 ##### keySort:
+ 
+Alternativa ao `.sort()` do TS, que pode ser um saco de se utilizar.
+Consegue ordenar automaticamente por:
+- `string`
+- `number`
+- `boolean`
 
 ```ts
 import { keySort } from "@ntec/utils";
