@@ -23,4 +23,4 @@ jobs:
             node_modules
             */*/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-      - run: yarn release
+      - run: yarn release -y
