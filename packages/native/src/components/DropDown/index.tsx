@@ -53,8 +53,6 @@ const DropDown: React.FC<DropDownProps> = ({
     setIsOpen(false);
   };
 
-  // opa
-
   return (
     <S.Wrapper
       width={width}
