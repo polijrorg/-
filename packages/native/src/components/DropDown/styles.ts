@@ -69,3 +69,5 @@ export const LabelWrapper = styled.View`
 export const Label = styled.Text`
   color: ${theme.colors.typograph.gray};
 `;
+
+// 🐒
