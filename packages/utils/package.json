@@ -1,0 +1,32 @@
+{
+  "name": "@ntec/utils",
+  "description": "A biblioteca de funções de TypeScript da Poli Júnior 👨🏻‍💻",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "version": "0.0.0",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/polijrorg/eh-tudo-nosso.git",
+    "directory": "packages/utils"
+  },
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "sideEffects": false,
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
