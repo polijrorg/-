@@ -28,11 +28,13 @@
   "scripts": {
     "prepare": "bob build"
   },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.67.3"
+  },
   "dependencies": {
     "@motify/components": "^0.17.1",
     "expo": "^44.0.6",
-    "react": "^17.0.2",
-    "react-native": "^0.67.3",
     "react-native-reanimated": "~2.2.0",
     "react-native-svg": "12.1.1",
     "react-native-svg-transformer": "^1.0.0",
