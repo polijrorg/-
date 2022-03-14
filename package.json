@@ -27,9 +27,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@auto-it/all-contributors": "^10.34.1",
-    "@auto-it/conventional-commits": "^10.34.1",
-    "@auto-it/first-time-contributor": "^10.34.1",
     "auto": "^10.34.1",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
@@ -42,7 +39,6 @@
     "githubApi": "https://github.com/polijrorg/eh-tudo-nosso",
     "plugins": [
       "npm",
-      "all-contributors",
       "conventional-commits",
       "first-time-contributor",
       "released"
