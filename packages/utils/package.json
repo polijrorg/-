@@ -27,5 +27,6 @@
   "sideEffects": false,
   "devDependencies": {
     "typescript": "^4.6.2"
-  }
+  },
+  "gitHead": "b7d04e2e775071a5ffcadb6a4ad5cce24d7342f5"
 }
