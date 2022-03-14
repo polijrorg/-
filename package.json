@@ -2,6 +2,7 @@
   "description": "A biblioteca de componentes React e React Native da Poli Júnior 👨🏻‍💻",
   "name": "eh-tudo-nosso",
   "private": true,
+  "version": "0.0.1",
   "workspaces": [
     "packages/*"
   ],
