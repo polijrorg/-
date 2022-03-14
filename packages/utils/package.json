@@ -25,8 +25,25 @@
     "lib/**/*"
   ],
   "sideEffects": false,
+  "scripts": {
+    "prepare": "bob build"
+  },
   "devDependencies": {
     "typescript": "^4.6.2"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ]
   },
   "gitHead": "b7d04e2e775071a5ffcadb6a4ad5cce24d7342f5"
 }
