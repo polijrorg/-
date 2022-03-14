@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Modal } from "react-native";
-import Arrow from "../../assets/Arrow";
+import Arrow from "../../assets/arrow.svg";
 import { MotiView } from "@motify/components";
 import * as S from "./styles";
 
 type DropDownProps = {
   label: string;
-  value: string | number;
-  options: string[] | number[];
-  onChange: React.Dispatch<React.SetStateAction<string | number>>;
+  value: string;
+  options: string[];
+  onChange: React.Dispatch<React.SetStateAction<string>>;
   width?: number;
   disableSelectAll?: boolean;
   editable?: boolean;
