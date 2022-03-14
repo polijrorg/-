@@ -1,6 +1,15 @@
 function keySort<T>(
+  /**
+   * Array a ser ordenado.
+  */
   array: T[],
+  /**
+   * Função que seleciona o critério de ordenação.
+  */
   getKey: (item: T) => number | string | boolean,
+  /**
+   * Permite que seja retornada a ordem inversa.
+  */
   reverse = false
 ): T[] {
   const reorder = reverse ? -1 : 1;

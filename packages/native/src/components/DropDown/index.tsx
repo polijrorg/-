@@ -5,12 +5,33 @@ import { MotiView } from "@motify/components";
 import * as S from "./styles";
 
 type DropDownProps = {
+  /**
+   * Texto que aparece no interior do componente.
+  */
   label: string;
+  /**
+   * Valor selecionado no componente.
+  */
   value: string;
+  /**
+   * Opções mostradas pelo componente.
+  */
   options: string[];
+  /**
+   * Função de callback.
+  */
   onChange: React.Dispatch<React.SetStateAction<string>>;
+  /**
+   * Largura.
+  */
   width?: number;
+  /**
+   * Desativa a opção "Todos".
+  */
   disableSelectAll?: boolean;
+  /**
+   * Indica se o componente pode ter seu valor alterado pelo usuário. 
+  */
   editable?: boolean;
 };
 
