@@ -1,6 +1,6 @@
 # Eh tudo nosso 💯
 
-Coleção oficial de libs para ajudar a fazer projetos em 💻 React e 📱 React Native, feitas para o NTec 🐒
+Coleção oficial de libs para te ajudar a fazer projetos em 💻 React e 📱 React Native, feita pelo NTec 🐒
 
 ## Pacotes 📦
 
