@@ -32,6 +32,4 @@ function keySort<T>(
   return reorderedArray;
 }
 
-// lol
-
 export default keySort;
