@@ -144,6 +144,21 @@ console.log(ordered);
 // Resultado: [{ name: "Amanda" }, { name: "Jorel" }, { name: "Mateus" }];
 ```
 
+##### wait:
+ 
+Versão assíncrona do `setTimeout()` do TS. Recebe um valor em milissegundos e espera pela duração definida.
+
+```ts
+import { wait } from "@ntec/utils";
+
+const call = async () => {
+  await wait(3000);
+  console.log("3 segundos depois ⏱");
+};
+
+call();
+```
+
 #### 👾 Como instalar:
 
 1. Rode no diretório do seu projeto:
