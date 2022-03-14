@@ -1,12 +1,12 @@
 {
-  "name": "@eh-tudo-nosso/native",
+  "name": "@ntec/native",
+  "description": "A biblioteca de componentes React Native da Poli Júnior 👨🏻‍💻",
   "private": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "version": "0.2.2",
+  "version": "0.2.20",
   "license": "MIT",
-  "description": "Componentes básicos feitos para React e React Native",
   "keywords": [
     "react",
     "react-native",
@@ -19,25 +19,23 @@
     "directory": "packages/native"
   },
   "main": "lib/commonjs/index.js",
-  "react-native": "src/index.ts",
-  "source": "src/index.ts",
   "module": "lib/module/index.js",
   "types": "lib/typescript/src/index.d.ts",
   "files": [
-    "src",
-    "lib"
+    "lib/**/*"
   ],
   "sideEffects": false,
   "scripts": {
     "prepare": "bob build"
   },
-  "dependencies": {
+  "peerDependencies": {
     "expo": "^44.0.6",
     "moti": "0.16",
     "react": "^17.0.2",
     "react-native": "^0.67.3",
     "react-native-reanimated": "~2.2.0",
     "react-native-svg": "12.1.1",
+    "react-native-svg-transformer": "^1.0.0",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
@@ -58,5 +56,6 @@
         }
       ]
     ]
-  }
+  },
+  "gitHead": "3f436d5325f34177dad95a4c1890d3e3df074d2e"
 }

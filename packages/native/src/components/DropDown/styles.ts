@@ -16,10 +16,6 @@ export const Wrapper = styled.Pressable<{ width?: number; dimmed: boolean }>`
   `}
 `;
 
-// safada
-// ...
-// oi, bb
-
 export const ModalWrapper = styled.Pressable`
   width: 100%;
   height: 100%;
