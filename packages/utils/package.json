@@ -29,6 +29,7 @@
     "prepare": "bob build"
   },
   "devDependencies": {
+    "react-native-builder-bob": "^0.18.2",
     "typescript": "^4.6.2"
   },
   "react-native-builder-bob": {
@@ -45,5 +46,5 @@
       ]
     ]
   },
-  "gitHead": "b7d04e2e775071a5ffcadb6a4ad5cce24d7342f5"
+  "gitHead": "620cc6ee1ab670b5435b8ccc5c9210fdaa4a7a39"
 }
