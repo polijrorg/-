@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "lerna run prepare",
-    "release": "yarn && lerna publish"
+    "release": "yarn && lerna publish --message=\":rocket: publish package to npm\""
   },
   "husky": {
     "hooks": {
