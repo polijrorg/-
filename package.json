@@ -37,11 +37,6 @@
   "auto": {
     "onlyPublishWithReleaseLabel": true,
     "githubApi": "https://github.com/polijrorg/eh-tudo-nosso",
-    "plugins": [
-      "npm",
-      "conventional-commits",
-      "first-time-contributor",
-      "released"
-    ]
+    "plugins": ["npm", "released"]
   }
 }
