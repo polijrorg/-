@@ -33,6 +33,7 @@
     "auto": "^10.34.1",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
+    "react-native-builder-bob": "^0.18.2",
     "typescript": "^4.6.2"
   },
   "author": "Henrique Falconer <henrique.falconer@polijunior.com.br>",
