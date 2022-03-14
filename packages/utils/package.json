@@ -5,7 +5,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "keywords": [
     "react",
@@ -25,7 +25,6 @@
     "lib/**/*"
   ],
   "sideEffects": false,
-  "dependencies": {},
   "devDependencies": {
     "typescript": "^4.6.2"
   }
