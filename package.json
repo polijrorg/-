@@ -14,10 +14,8 @@
     "url": "git://github.com/polijrorg/eh-tudo-nosso.git"
   },
   "scripts": {
-    "typescript": "tsc --noEmit --composite false",
     "build": "lerna run prepare",
-    "release": "auto shipit",
-    "prepare": "lerna run prepare"
+    "release": "lerna publish"
   },
   "husky": {
     "hooks": {
