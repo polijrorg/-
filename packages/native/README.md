@@ -71,7 +71,8 @@ module.exports = function (api) {
 
 Por algum motivo, o pacote apenas funciona com esta sequência de passos:
 1. Trocar, no `package.json`, `peerDependencies` por `dependencies`
-2. Rodar `yarn`
-3. Trocar, no `package.json`, `dependencies` por `peerDependencies` novamente
-4. Rodar `npm publish` neste diretório
+2. Remover `node_modules` deste diretório
+3. Rodar `yarn`
+4. Trocar, no `package.json`, `dependencies` por `peerDependencies` novamente
+5. Rodar `npm publish` neste diretório
 
